@@ -1,6 +1,6 @@
 # Golang学习
 
-[TOC]
+
 
 ### Golang背景（摘自wikipedia）
 
