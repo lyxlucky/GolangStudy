@@ -1,0 +1,18 @@
+{
+	"Print to conaole":{
+		"prefix": "golang",    //在新建立的页面中输入C++就会有智能提示，Tab就自动生成好了
+		"body": [
+			"package main",
+			"",     //这个头文件可以删除，我为了使用方便就加了
+			"import (", //空行
+			"   \"fmt\"", //标准命名空间
+			")",
+			"",   //main()函数
+			"func main(){",
+			"   $0",    //最终光标会在这里等待输入
+			"}",
+			"",
+		],
+		"description": "A Golang file template."   //用户输入后智能提示的内容（你可以用中文写“生成C++模板”）
+	}
+}
