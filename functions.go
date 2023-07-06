@@ -32,6 +32,7 @@ func foo3(a string,b int) (r1 int,r2 int) {
 	r2 = 400
 
 	// 形参一旦初始化，默认值为0
+	//r1 r2 的作用域为foo3
 
 	return
 }
